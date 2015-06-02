@@ -1,7 +1,7 @@
 # build:  docker build -t elasticmq .
 # run:    docker run --rm -v "$(pwd)/config:/elasticmq/config:ro" -p 9324:9324 elasticmq
 
-FROM centos
+FROM centos:fd44297e2ddb
 
 EXPOSE 9324
 
